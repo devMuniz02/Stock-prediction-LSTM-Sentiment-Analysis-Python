@@ -47,8 +47,12 @@ To run the project, ensure you have the following installed:
 - Python 3.8 or later
 - Required Python libraries: `tensorflow`, `pandas`, `numpy`, `sklearn`, `matplotlib`, `nltk`, `yfinance`, and `fredapi`.
 
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/Stock-prediction-LSTM-Sentiment-Analysis.git
-   cd Stock-prediction-LSTM-Sentiment-Analysis
+---
+
+### Check Out My Other Projects
+Explore more of my AI and ML work [here](https://github.com/devMuniz02/AI-ML-Code-and-projects/).
+
+---
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
