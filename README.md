@@ -1,37 +1,45 @@
+[![ArXiv](https://img.shields.io/badge/ArXiv-2512.16841-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2512.16841)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-devmuniz-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devmuniz)
+[![GitHub Profile](https://img.shields.io/badge/GitHub-devMuniz02-181717?logo=github&logoColor=white)](https://github.com/devMuniz02)
+[![Portfolio](https://img.shields.io/badge/Portfolio-devmuniz02.github.io-0F172A?logo=googlechrome&logoColor=white)](https://devmuniz02.github.io/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-manu02-FFD21E?logoColor=black)](https://huggingface.co/manu02)
+
 # Stock Prediction with LSTM and Sentiment Analysis
 
-This project aims to predict stock prices for the next day using a Long Short-Term Memory (LSTM) model in Python, supplemented by sentiment analysis of news. The approach combines:
-- **Deep Learning**: Using LSTM for time-series stock price prediction.
-- **Natural Language Processing**: Analyzing market-related news sentiment.
+This project aims to predict stock prices for the next day using a Long Short-Term Memory (LSTM) model in Python, supplemented by sentiment analysis of news. The approach combines: - **Deep Learning**: Using LSTM for time-series stock price prediction. - **Natural Language Processing**: Analyzing market-related news sentiment.
 
----
+1. **`LSTM.ipynb`** - Contains the main workflow for training and testing the LSTM model with stock price data. - Below are sample results from the notebook:
 
-## Project Overview
+## Overview
 
-### Files in the Repository
+Project to predict stock prices of next day data using a LSTM model in python and sentiment analysis of news related to the stock market in general and the news of the stock to predict.
 
-1. **`LSTM.ipynb`**
-   - Contains the main workflow for training and testing the LSTM model with stock price data.
-   - Below are sample results from the notebook:
+## Repository Structure
 
-     **Full Data Prediction**  
-     ![Full Data Prediction](https://github.com/user-attachments/assets/ca0f8a97-3fe3-4739-a173-67ce0b438451)
+| Path | Description |
+| --- | --- |
+| `assets/` | Images, figures, or other supporting media used by the project. |
+| `LSTM.ipynb` | Notebook used for experiments, analysis, or interactive demos. |
+| `LSTMdef.ipynb` | Notebook used for experiments, analysis, or interactive demos. |
+| `README.md` | Primary project documentation. |
+| `SaveSentiment.ipynb` | Notebook used for experiments, analysis, or interactive demos. |
 
-     **Test Predictions**  
-     ![Test Predictions](https://github.com/user-attachments/assets/1127e88a-b1d8-405e-a88e-5a512d38faf2)
+## Getting Started
 
-2. **`SaveSentiment.ipynb`**
-   - Saves the sentiment data extracted from news articles using sentiment analysis techniques.
-   - This notebook gathers news sentiments relevant to specific stocks or markets.
+1. Clone the repository.
 
-3. **`LSTMdef.ipynb`**
-   - Uses the sentiment data saved by `SaveSentiment.ipynb` and integrates it with stock data to train and evaluate the LSTM model.
-   - Combines stock data and sentiment data for improved predictive performance.
+   ```bash
+   git clone https://github.com/devMuniz02/Stock-prediction-LSTM-Sentiment-Analysis-Python.git
+   cd Stock-prediction-LSTM-Sentiment-Analysis-Python
+   ```
 
-4. **`README.md`**
-   - Provides an overview of the project, the files, and their roles in the workflow.
+2. Prepare the local environment.
 
----
+Review the repository files below to identify the appropriate local setup steps for this project.
+
+3. Run or inspect the project entry point.
+
+Open the notebook files in Jupyter or VS Code to reproduce the workflow documented in the repository.
 
 ## Features
 
@@ -39,6 +47,10 @@ This project aims to predict stock prices for the next day using a Long Short-Te
 - **Sentiment Analysis**: Evaluates market sentiment from general news and stock-specific articles to inform predictions.
 
 ---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Getting Started
 
@@ -53,6 +65,3 @@ To run the project, ensure you have the following installed:
 Explore more of my AI and ML work [here](https://github.com/devMuniz02/AI-ML-Code-and-projects/).
 
 ---
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
